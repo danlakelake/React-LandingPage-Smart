@@ -26,6 +26,10 @@ export const ContainerNavbar = styled.div`
         transition: all 0.3s ease-out 0s;
         color: ${ColorVariables.mainWhite};
 
+        &:hover {
+          border-bottom: 5px solid ${ColorVariables.mainWhite};
+        }
+
         &.active {
           border-bottom: 5px solid ${ColorVariables.mainWhite};
 

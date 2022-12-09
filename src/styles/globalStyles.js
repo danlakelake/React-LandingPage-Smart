@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import ColorVariables from '../styles/variables';
 
 const GlobalStyles = createGlobalStyle`
 
@@ -15,6 +16,15 @@ const GlobalStyles = createGlobalStyle`
 body {
     margin: 0;
     font-family: 'Raleway';
+    background-color: ${ColorVariables.mainWhite};
+  }
+
+  h1, h2, h3, h4, h5{
+    font-weight: bold;
+  }
+
+  p{
+    font-family: 'Open Sans';
   }
 `;
 

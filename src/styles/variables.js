@@ -1,7 +1,7 @@
 //Color Variables
 
 export const ColorVariables = {
-  tealColor: 'teal',
+  tealColor: '#3af1da',
   mainWhite: 'white',
   mainBlack: 'black',
 };
