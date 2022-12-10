@@ -24,7 +24,7 @@ export const ContainerSlider = styled.div`
           padding: 0 2rem;
 
           @media ${Device.mobileL} {
-            top: 25%;
+            top: 20%;
           }
         }
       }

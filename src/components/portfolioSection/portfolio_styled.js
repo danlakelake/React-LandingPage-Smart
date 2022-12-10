@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { HashLink as Link } from 'react-router-hash-link';
+import Device from '../../styles/breakPoints';
 import ColorVariables from '../../styles/variables';
 
 export const ContainerPortfolio = styled.section`
@@ -28,7 +29,7 @@ export const MenuPortfolio = styled.ul`
 
 export const MenuLinks = styled.li`
   text-transform: uppercase;
-  margin-top: 1rem;
+  margin-top: 2rem;
 `;
 
 export const Links = styled(Link)`
@@ -39,8 +40,34 @@ export const Links = styled(Link)`
 export const ContainerCards = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem 6rem;
+  gap: 50px;
+
+  @media ${Device.tablet} {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const Cards = styled.div`
-  display: flex;
+  cursor: pointer;
+  text-align: left;
+
+  img {
+    border-radius: 15px;
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  @media ${Device.tablet} {
+    text-align: center;
+  }
+`;
+
+export const TitleCards = styled.h3`
+  color: ${ColorVariables.mainBlack};
+  margin-top: 2rem;
+`;
+
+export const DescCards = styled.p`
+  color: ${ColorVariables.mainBlack};
 `;
