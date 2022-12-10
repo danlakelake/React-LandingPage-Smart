@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import LogoSmart from '../../assets/images/logo/logo-smart.png';
-import { ContainerNavbar } from './navbar_styled';
+import { ContainerNavbar, NavLinks } from './navbar_styled';
 
 const MainNavbar = () => {
   return (
@@ -16,11 +16,11 @@ const MainNavbar = () => {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav navbarScroll>
-            <Nav.Link href="#home" activestyle="true">Home</Nav.Link>
-            <Nav.Link href="#about" activestyle="true">About</Nav.Link>
-            <Nav.Link href="#portfolio" activestyle="true">Portfolio</Nav.Link>
-            <Nav.Link href="#pricing" activestyle="true">Pricing</Nav.Link>
-            <Nav.Link href="#contact" activestyle="true">Contact</Nav.Link>
+            <NavLinks to="/#" >Home</NavLinks>
+            <NavLinks to="#about" >About</NavLinks>
+            <NavLinks to="#portfolio">Portfolio</NavLinks>
+            <NavLinks to="#pricing">Subscribe</NavLinks>
+            <NavLinks to="#contact">Contact</NavLinks>
           </Nav>
         </Navbar.Collapse>
       </Container>

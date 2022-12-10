@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 
 export const MainContainer = styled.div`
-  background-color: grey;
+  margin-top: 9%;
 `;

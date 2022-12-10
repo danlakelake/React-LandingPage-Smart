@@ -1,8 +1,8 @@
 import styled from 'styled-components';
+import Device from '../../styles/breakPoints';
 
-export const ContainerCarousel = styled.section`
+export const ContainerSlider = styled.div`
   display: flex;
-
   .carousel {
     .carousel-inner {
       .carousel-item {
@@ -22,6 +22,10 @@ export const ContainerCarousel = styled.section`
           top: 35%;
           text-align: center;
           padding: 0 2rem;
+
+          @media ${Device.mobileL} {
+            top: 25%;
+          }
         }
       }
     }

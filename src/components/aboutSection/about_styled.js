@@ -2,10 +2,8 @@ import styled from 'styled-components';
 import Device from '../../styles/breakPoints';
 import ColorVariables from '../../styles/variables';
 
-export const ContainerAboutSection = styled.section`
-  padding: 4rem 2rem;
+export const ContainerAbout = styled.section`
   text-align: center;
-  background-color: white;
 `;
 
 export const TitleSection = styled.h1`
@@ -55,9 +53,5 @@ export const CardDescription = styled.div`
 
   @media ${Device.mobileL} {
     text-align: center;
-  }
-
-  h3 {
-    text-transform: uppercase;
   }
 `;

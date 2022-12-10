@@ -1,12 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPenSquare, faExpand, faSpinner, faSignal} from '@fortawesome/fontawesome-free-solid'
-import {ContainerAboutSection, TitleSection, SubTitleSection, ContainerCards, Cards, CardIcon, CardDescription} from './about_styled';
+import {ContainerAbout, TitleSection, SubTitleSection, ContainerCards, Cards, CardIcon, CardDescription} from './about_styled';
 
 const About = () => {
 
   return (
-    <ContainerAboutSection>
+    <ContainerAbout id="about">
       <TitleSection>FRESH DESIGN GOOD QUALITY</TitleSection>
       <SubTitleSection>An open platform for presentations and content collaboration. Sign up to get early access.</SubTitleSection>
       <ContainerCards>
@@ -47,7 +47,7 @@ const About = () => {
           </CardDescription>
         </Cards>
       </ContainerCards>
-    </ContainerAboutSection>
+    </ContainerAbout>
   )
 }
 

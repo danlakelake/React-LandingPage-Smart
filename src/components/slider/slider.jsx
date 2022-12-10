@@ -3,11 +3,11 @@ import Carousel from 'react-bootstrap/Carousel';
 import Slider1 from '../../assets/images/slider/slider-1.jpg';
 import Slider2 from '../../assets/images/slider/slider-2.jpg';
 import Slider3 from '../../assets/images/slider/slider-3.jpg';
-import { ContainerCarousel } from './slider_styled';
+import { ContainerSlider } from './slider_styled';
 
 const Slider = () => {
   return (
-    <ContainerCarousel>
+    <ContainerSlider>
          <Carousel>
       <Carousel.Item > 
         <img
@@ -46,7 +46,7 @@ const Slider = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-    </ContainerCarousel>
+    </ContainerSlider>
   )
 }
 

@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
-import MainContent from './components/mainContent';
+import Layout from './components/layot/layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <Fragment>
-      <MainContent />
+      <Layout />
     </Fragment>
   );
 }
