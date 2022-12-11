@@ -42,9 +42,13 @@ export const NavLinks = styled(Link)`
   display: block;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: ${ColorVariables.mainWhite};
   cursor: pointer;
+
+  &.active {
+    border-bottom: 5px solid ${ColorVariables.mainWhite};
+  }
 
   &:hover {
     border-bottom: 5px solid ${ColorVariables.mainWhite};
@@ -57,9 +61,5 @@ export const NavLinks = styled(Link)`
       border-bottom: none;
       color: ${ColorVariables.mainBlack};
     }
-  }
-
-  &.active {
-    border-bottom: 5px solid ${ColorVariables.mainWhite};
   }
 `;

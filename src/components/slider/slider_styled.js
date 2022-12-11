@@ -7,8 +7,8 @@ export const ContainerSlider = styled.div`
     .carousel-inner {
       .carousel-item {
         img {
-          max-height: 400px;
-          min-height: 400px;
+          max-height: 450px;
+          min-height: 450px;
           background: no-repeat center center scroll;
           -webkit-background-size: cover;
           -moz-background-size: cover;
