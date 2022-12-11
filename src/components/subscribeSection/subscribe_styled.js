@@ -49,7 +49,6 @@ export const ContainerInput = styled.div`
     border-bottom-right-radius: 50px;
     color: ${ColorVariables.mainWhite};
     padding: 1rem 2rem;
-    text-transform: uppercase;
     border: 0;
     background: -webkit-linear-gradient(
       left,

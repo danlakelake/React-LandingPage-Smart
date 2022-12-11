@@ -37,6 +37,10 @@ body {
   section{
     padding: 5rem 2rem 0px 2rem;
   }
+  
+  button{
+    text-transform: uppercase;
+  }
 `;
 
 export default GlobalStyles;

@@ -31,7 +31,7 @@ export const ContainerSlider = styled.div`
     }
 
     .carousel-indicators {
-      bottom: 5%;
+      bottom: 3%;
       gap: 5px;
 
       button {

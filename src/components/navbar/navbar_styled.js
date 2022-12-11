@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { HashLink as Link } from 'react-router-hash-link';
+import { NavHashLink as Link } from 'react-router-hash-link';
 import Device from '../../styles/breakPoints';
 import ColorVariables from '../../styles/variables';
 
@@ -43,6 +43,7 @@ export const NavLinks = styled(Link)`
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1rem;
+  padding-bottom: 2px;
   color: ${ColorVariables.mainWhite};
   cursor: pointer;
 
@@ -58,7 +59,7 @@ export const NavLinks = styled(Link)`
     transition: all 0.3s ease-out 0s;
 
     @media ${Device.tablet} {
-      border-bottom: none;
+      border: none;
       color: ${ColorVariables.mainBlack};
     }
   }

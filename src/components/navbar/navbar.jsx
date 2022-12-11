@@ -16,11 +16,11 @@ const MainNavbar = () => {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav navbarScroll>
-            <NavLinks to="/#" activeClassName={"active"}  >Home</NavLinks>
-            <NavLinks to="#about" activeClassName={"active"}  >About</NavLinks>
-            <NavLinks to="#portfolio" activeClassName={"active"} >Portfolio</NavLinks>
-            <NavLinks to="#subscribe" activeClassName={"active"} >Subscribe</NavLinks>
-            <NavLinks to="#contact" activeClassName={"active"} >Contact</NavLinks>
+            <NavLinks to="/#" activestyle="true">Home</NavLinks>
+            <NavLinks to="#about" activestyle="true">About</NavLinks>
+            <NavLinks to="#portfolio" activestyle="true">Portfolio</NavLinks>
+            <NavLinks to="#subscribe" activestyle="true">Subscribe</NavLinks>
+            <NavLinks to="#contact" activestyle="true">Contact</NavLinks>
           </Nav>
         </Navbar.Collapse>
       </Container>

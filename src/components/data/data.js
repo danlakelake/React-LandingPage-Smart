@@ -1,9 +1,9 @@
-import Portfolio1 from '../../assets/images/portfolio-1.png';
-import Portfolio2 from '../../assets/images/portfolio-2.png';
-import Portfolio3 from '../../assets/images/portfolio-3.png';
-import Portfolio4 from '../../assets/images/portfolio-4.png';
-import Portfolio5 from '../../assets/images/portfolio-5.png';
-import Portfolio6 from '../../assets/images/portfolio-6.png';
+import Portfolio1 from '../../assets/images/portfolio/portfolio-1.png';
+import Portfolio2 from '../../assets/images/portfolio/portfolio-2.png';
+import Portfolio3 from '../../assets/images/portfolio/portfolio-3.png';
+import Portfolio4 from '../../assets/images/portfolio/portfolio-4.png';
+import Portfolio5 from '../../assets/images/portfolio/portfolio-5.png';
+import Portfolio6 from '../../assets/images/portfolio/portfolio-6.png';
 
 const Data = [
   {
