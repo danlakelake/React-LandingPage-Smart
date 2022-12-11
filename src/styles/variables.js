@@ -5,6 +5,7 @@ export const ColorVariables = {
   mainWhite: 'white',
   lightGrey: '#f9f9f9',
   mainBlack: 'black',
+  menusGrey: '#838383',
 };
 
 export default ColorVariables;

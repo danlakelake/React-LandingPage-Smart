@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { HashLink as Link } from 'react-router-hash-link';
+import { NavLink as Link } from 'react-router-dom';
 import Device from '../../styles/breakPoints';
 import ColorVariables from '../../styles/variables';
 
@@ -32,9 +32,25 @@ export const MenuLinks = styled.li`
   margin-top: 2rem;
 `;
 
-export const Links = styled(Link)`
+export const MenuBtns = styled(Link)`
   text-decoration: none;
   color: ${ColorVariables.mainBlack};
+  font-size: 1.2rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding-bottom: 5px;
+
+  &:hover {
+    color: ${ColorVariables.tealColor};
+    border-bottom: 5px solid ${ColorVariables.tealColor};
+    transition: all 0.3s ease-out 0s;
+  }
+
+  &:focus {
+    color: ${ColorVariables.tealColor};
+    border-bottom: 5px solid ${ColorVariables.tealColor};
+  }
 `;
 
 export const ContainerCards = styled.div`
@@ -42,7 +58,6 @@ export const ContainerCards = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   padding: 2rem 6rem;
   gap: 50px;
-
   @media ${Device.tablet} {
     grid-template-columns: 1fr;
   }
@@ -51,6 +66,16 @@ export const ContainerCards = styled.div`
 export const Cards = styled.div`
   cursor: pointer;
   text-align: left;
+  animation: fadein 3s;
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 
   img {
     border-radius: 15px;

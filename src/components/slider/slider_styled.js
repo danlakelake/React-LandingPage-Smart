@@ -35,13 +35,13 @@ export const ContainerSlider = styled.div`
       gap: 5px;
 
       button {
-        width: 8px;
-        height: 8px;
+        width: 10px;
+        height: 10px;
         border-radius: 50px;
         border: 0;
 
         &.active {
-          width: 16px;
+          width: 22px;
           background-color: #fff;
           border-radius: 50px;
         }
