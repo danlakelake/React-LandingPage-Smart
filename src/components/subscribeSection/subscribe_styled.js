@@ -10,7 +10,7 @@ export const ContainerSubscribe = styled.section`
 
   @media ${Device.tablet} {
     grid-template-columns: 1fr;
-    padding: 5rem;
+    padding: 2rem;
     text-align: center;
     gap: 40px;
   }

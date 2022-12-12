@@ -16,6 +16,7 @@ export const ContainerMenus = styled.div`
 
   @media ${Device.tablet} {
     grid-template-columns: 1fr;
+    padding: 2rem;
   }
 `;
 
@@ -63,6 +64,10 @@ export const ContainerBottomFooter = styled.div`
   background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
   background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
   background: linear-gradient(to right, #43cae9 0%, #38f9d7 100%);
+
+  @media ${Device.tablet} {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const TextCopyRight = styled.p`
@@ -73,6 +78,10 @@ export const TextCopyRight = styled.p`
 
   a {
     margin-left: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Raleway';
+    color: ${ColorVariables.mainBlack};
   }
 `;
 

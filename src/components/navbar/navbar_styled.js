@@ -15,6 +15,10 @@ export const ContainerNavbar = styled.div`
     background: linear-gradient(to right, #43cae9 0%, #38f9d7 100%);
     box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
 
+    .isactive {
+      border-bottom: 5px solid ${ColorVariables.mainWhite};
+    }
+
     img {
       max-width: 200px;
     }
@@ -47,10 +51,6 @@ export const NavLinks = styled(Link)`
   color: ${ColorVariables.mainWhite};
   cursor: pointer;
 
-  &.active {
-    border-bottom: 5px solid ${ColorVariables.mainWhite};
-  }
-
   &:hover {
     border-bottom: 5px solid ${ColorVariables.mainWhite};
     color: ${ColorVariables.mainWhite};
@@ -58,8 +58,8 @@ export const NavLinks = styled(Link)`
       border-color 0.15s ease-in-out;
     transition: all 0.3s ease-out 0s;
 
-    @media ${Device.tablet} {
-      border: none;
+    @media ${Device.laptop} {
+      border-bottom: none;
       color: ${ColorVariables.mainBlack};
     }
   }

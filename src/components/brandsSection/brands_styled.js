@@ -31,7 +31,7 @@ export const ContainerImages = styled.div`
   padding: 0 6rem;
 
   @media ${Device.tablet} {
-    padding: 0 3rem;
+    padding: 0;
     gap: 20px;
   }
 `;
