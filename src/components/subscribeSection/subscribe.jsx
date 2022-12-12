@@ -1,8 +1,7 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
-import { ContainerSubscribe, TitleSection, SubTitleSection, ContainerTitle, ContainerInput } from './subscribe_styled';
+import { ContainerSubscribe, TitleSection, SubTitleSection, ContainerTitle, ContainerInput, BtnForm} from './subscribe_styled';
 
 const Subscribe = () => {
   return (
@@ -16,9 +15,9 @@ const Subscribe = () => {
                 <Form.Control className='w-20'
                 placeholder="Enter your email"
                 />
-                <Button variant="outline-secondary" id="button-addon2">
+                <BtnForm type="submit">
                 Subscribe
-                </Button>
+                </BtnForm>
             </InputGroup>
       </ContainerInput>
     </ContainerSubscribe>

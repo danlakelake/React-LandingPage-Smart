@@ -13,7 +13,7 @@ export const TitleSection = styled.h1`
 `;
 
 export const SubTitleSection = styled.p`
-  color: ${ColorVariables.mainBlack};
+  color: ${ColorVariables.menusGrey};
 `;
 
 export const MenuPortfolio = styled.ul`
@@ -25,14 +25,18 @@ export const MenuPortfolio = styled.ul`
   padding: 0;
   white-space: nowrap;
   gap: 20px;
+
+  @media ${Device.tablet} {
+    display: block;
+  }
 `;
 
-export const MenuLinks = styled.li`
+export const MenuPortfolioLinks = styled.li`
   text-transform: uppercase;
   margin-top: 2rem;
 `;
 
-export const MenuBtns = styled(Link)`
+export const MenuLinks = styled(Link)`
   text-decoration: none;
   color: ${ColorVariables.mainBlack};
   font-size: 1.2rem;
@@ -58,8 +62,10 @@ export const ContainerCards = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   padding: 2rem 6rem;
   gap: 50px;
+
   @media ${Device.tablet} {
     grid-template-columns: 1fr;
+    padding: 0;
   }
 `;
 

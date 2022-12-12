@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Data from '../data/data';
-import { ContainerPortfolio, TitleSection, SubTitleSection, MenuPortfolio, MenuLinks, MenuBtns, ContainerCards, Cards, TitleCards, DescCards } from './portfolio_styled';
+import { ContainerPortfolio, TitleSection, SubTitleSection, MenuPortfolio, MenuPortfolioLinks, MenuLinks, ContainerCards, Cards, TitleCards, DescCards } from './portfolio_styled';
 
 const Portfolio = () => {
 
@@ -23,15 +23,15 @@ const Portfolio = () => {
         <SubTitleSection>Stop wasting time and money designing and managing a website that doesn't get reults. Happiness guaranteed!</SubTitleSection>
 
         <MenuPortfolio>
-        <MenuLinks>
-            <MenuBtns onClick={() => setItem(Data)}>All Work</MenuBtns>
-        </MenuLinks>
+        <MenuPortfolioLinks>
+            <MenuLinks onClick={() => setItem(Data)}>All Work</MenuLinks>
+        </MenuPortfolioLinks>
         {menuItems.map((Val, id) => {
           return (
             <>
-            <MenuLinks>
-              <MenuBtns key={id} onClick={() => filterItem(Val)}>{Val}</MenuBtns>
-            </MenuLinks>
+            <MenuPortfolioLinks>
+              <MenuLinks key={id} onClick={() => filterItem(Val)}>{Val}</MenuLinks>
+            </MenuPortfolioLinks>
             </>
           )
         })}

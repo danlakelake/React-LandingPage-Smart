@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Device from '../../styles/breakPoints';
 import ColorVariables from '../../styles/variables';
 
 export const ContainerContact = styled.section`
@@ -10,14 +11,18 @@ export const TitleSection = styled.h1`
 `;
 
 export const SubTitleSection = styled.p`
-  color: ${ColorVariables.mainBlack};
+  color: ${ColorVariables.menusGrey};
 `;
 
 export const ContainerContent = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  padding-top: 1rem;
+  padding: 1rem 1rem;
+
+  @media ${Device.tablet} {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const ContainerDesc = styled.div`
@@ -32,6 +37,11 @@ export const ContainerDesc = styled.div`
   }
   p {
     font-size: 1rem;
+    color: ${ColorVariables.menusGrey};
+  }
+
+  @media ${Device.tablet} {
+    text-align: center;
   }
 `;
 
@@ -48,6 +58,10 @@ export const ContainerForm = styled.div`
       box-shadow: none;
       border: 1px solid ${ColorVariables.tealColor};
     }
+  }
+
+  @media ${Device.tablet} {
+    padding: 1rem;
   }
 `;
 

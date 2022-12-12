@@ -1,6 +1,8 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPenSquare, faExpand, faSpinner, faSignal} from '@fortawesome/fontawesome-free-solid'
+import {FaPenSquare} from '@react-icons/all-files/fa/FaPenSquare';
+import {FaExpand} from '@react-icons/all-files/fa/FaExpand';
+import {FaSpinner} from '@react-icons/all-files/fa/FaSpinner';
+import {FaSignal} from '@react-icons/all-files/fa/FaSignal';
 import {ContainerAbout, TitleSection, SubTitleSection, ContainerCards, Cards, CardIcon, CardDescription} from './about_styled';
 
 const About = () => {
@@ -12,7 +14,7 @@ const About = () => {
       <ContainerCards>
         <Cards>
         <CardIcon>
-            <FontAwesomeIcon icon={faPenSquare} />
+            <FaPenSquare/>
           </CardIcon>          
           <CardDescription>
             <h3>Designed for everyone</h3>
@@ -21,7 +23,7 @@ const About = () => {
         </Cards>
         <Cards>
         <CardIcon>
-            <FontAwesomeIcon icon={faExpand} />
+            <FaExpand />
           </CardIcon>          
           <CardDescription>
             <h3>Flexibility as it is</h3>
@@ -30,7 +32,7 @@ const About = () => {
         </Cards>
         <Cards>
           <CardIcon>
-            <FontAwesomeIcon icon={faSpinner} />
+            <FaSpinner />
           </CardIcon>
           <CardDescription>
             <h3>Powerfull platform</h3>
@@ -39,7 +41,7 @@ const About = () => {
         </Cards>
         <Cards>
           <CardIcon>
-            <FontAwesomeIcon icon={faSignal} />
+            <FaSignal />
           </CardIcon>          
           <CardDescription>
             <h3>Work in a real time</h3>

@@ -18,6 +18,10 @@ export const ContainerBrands = styled.section`
       }
     }
   }
+
+  @media ${Device.tablet} {
+    padding: 2rem;
+  }
 `;
 
 export const ContainerImages = styled.div`
@@ -27,7 +31,7 @@ export const ContainerImages = styled.div`
   padding: 0 6rem;
 
   @media ${Device.tablet} {
-    padding: 0 4rem;
+    padding: 0 3rem;
     gap: 20px;
   }
 `;

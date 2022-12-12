@@ -11,7 +11,7 @@ export const TitleSection = styled.h1`
 `;
 
 export const SubTitleSection = styled.p`
-  color: ${ColorVariables.mainBlack};
+  color: ${ColorVariables.menusGrey};
 `;
 
 export const ContainerCards = styled.div`
