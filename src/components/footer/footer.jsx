@@ -2,6 +2,7 @@ import React from 'react';
 import {FaFacebookSquare} from '@react-icons/all-files/fa/FaFacebookSquare';
 import {FaTwitterSquare} from '@react-icons/all-files/fa/FaTwitterSquare';
 import {FaInstagramSquare} from '@react-icons/all-files/fa/FaInstagramSquare';
+import {FaLinkedin}  from '@react-icons/all-files/fa/FaLinkedin';
 import LogoSmart from '../../assets/images/logo/logo-smart.png';
 import { ContainerFooter, ContainerMenus, FooterMenus, TitleMenus, SectionLinks, Links,  ContainerBottomFooter, TextCopyRight, ContainerLogo, ContainerSocialIcons } from './footer_styled';
 
@@ -68,6 +69,7 @@ const Footer = () => {
             <FaFacebookSquare />
             <FaTwitterSquare/>
             <FaInstagramSquare/>
+            <FaLinkedin/>
             </ContainerSocialIcons>
         </ContainerBottomFooter>
     </ContainerFooter>

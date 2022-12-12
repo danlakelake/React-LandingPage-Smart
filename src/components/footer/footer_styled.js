@@ -98,7 +98,7 @@ export const ContainerLogo = styled(Link)`
 
 export const ContainerSocialIcons = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
   margin: auto;
   gap: 15px;
@@ -106,7 +106,7 @@ export const ContainerSocialIcons = styled.div`
 
   svg {
     font-size: 1.6rem;
-    cursor: pointer;
     transition: 0.3s all ease-in-out;
+    cursor: pointer;
   }
 `;

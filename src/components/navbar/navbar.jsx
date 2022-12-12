@@ -10,12 +10,6 @@ const MainNavbar = () => {
 
   const { hash } = useLocation();
 
-  console.log(hash);
-
-  if (hash === "#") {
-    console.log("estas en home");
-  } 
-
   return (
     <ContainerNavbar>
        <Navbar expand="lg">
