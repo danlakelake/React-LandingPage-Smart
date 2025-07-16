@@ -29,7 +29,7 @@ body {
     text-transform: uppercase;
   }
 
-  p, a{
+  p{
     font-family: 'Open Sans' sans-serif;
   }
 

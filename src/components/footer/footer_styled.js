@@ -80,7 +80,6 @@ export const TextCopyRight = styled.p`
     margin-left: 5px;
     font-weight: bold;
     text-decoration: none;
-    font-family: 'Raleway';
     color: ${ColorVariables.mainBlack};
   }
 `;
