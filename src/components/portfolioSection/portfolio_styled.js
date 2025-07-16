@@ -34,6 +34,7 @@ export const MenuPortfolio = styled.ul`
 export const MenuPortfolioLinks = styled.li`
   text-transform: uppercase;
   margin-top: 2rem;
+  font-weight: bold;
 `;
 
 export const MenuLinks = styled(Link)`

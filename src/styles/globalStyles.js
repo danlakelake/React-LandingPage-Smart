@@ -4,13 +4,13 @@ import ColorVariables from '../styles/variables';
 const GlobalStyles = createGlobalStyle`
 
 @font-face {
-  font-family: "Raleway";
-  src: local("Raleway-VariableFont_wght.ttf");
+  font-family: 'Raleway';
+  src: url('/fonts/Raleway-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "Open Sans";
-  src: local("OpenSans-Italic-VariableFont_wdth,wght.ttf"),
+  font-family: 'Open Sans';
+  src: url('/fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
 html{
@@ -20,9 +20,8 @@ html{
 
 body {
     margin: 0;
-    font-family: 'Raleway';
     background-color: ${ColorVariables.mainWhite};
-
+    font-family: 'Raleway', sans-serif;
   }
 
   h1, h2, h3, h4, h5{
@@ -30,8 +29,8 @@ body {
     text-transform: uppercase;
   }
 
-  p{
-    font-family: 'Open Sans';
+  p, a{
+    font-family: 'Open Sans' sans-serif;
   }
 
   section{

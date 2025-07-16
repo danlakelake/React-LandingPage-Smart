@@ -61,7 +61,7 @@ const Footer = () => {
             </FooterMenus>
         </ContainerMenus>
         <ContainerBottomFooter>
-            <TextCopyRight>Crafted by <a href="https://github.com/danlakelake/React-LandingPage-Smart" target="blank">Danlakelake</a> </TextCopyRight>
+            <TextCopyRight>Crafted by <a href="https://github.com/danlakelake/React-LandingPage-Smart" target="blank">Danlakelake</a></TextCopyRight>
             <ContainerLogo to="#">
                 <img src={LogoSmart} alt="Logo-Smart" />
             </ContainerLogo>
