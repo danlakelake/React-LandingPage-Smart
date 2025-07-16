@@ -10,6 +10,6 @@ https://react-landingpage-smart.netlify.app/
 
 ## 📦 Getting Started / Cómo empezar
 
-npm install     # Install dependencies / Instalar dependencias
-npm start       # Start local dev server / Iniciar servidor local
+npm install     # Install dependencies / Instalar dependencias\
+npm start       # Start local dev server / Iniciar servidor local\
 npm run build   # Build for production / Crear versión de producción
